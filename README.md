@@ -14,10 +14,7 @@ This repository contains two core components:
 ### A. Detectron2 (RPN)
 - GitHub: https://github.com/facebookresearch/detectron2  
 - Install (Linux/macOS; pick the wheel matching your Torch/CUDA):
-  ```bash
-  pip install 'git+https://github.com/facebookresearch/detectron2.git'
-````
-
+ 
 
 
 ## 2) Repository Structure
