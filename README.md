@@ -49,7 +49,6 @@ pip install opencv-python numpy
 .
 ├── cod_mcts.py               # CoD ROI selection with MCTS + backtracking (parameterized CLI)
 ├── chain_of_detection.py     # Qwen2-VL-based detection chain generator (CLI)
-├── qwen_vl_utils.py          # (Required) Qwen2-VL helper from official repo/examples
 └── README.md
 ```
 
