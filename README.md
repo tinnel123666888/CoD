@@ -17,7 +17,7 @@ This repository contains two core components:
 - **Install** (Linux/macOS; choose the wheel matching your Torch/CUDA version):
 ```bash
 pip install 'git+https://github.com/facebookresearch/detectron2.git'
-:
+```
  
 
 
@@ -28,7 +28,7 @@ pip install 'git+https://github.com/facebookresearch/detectron2.git'
 - **Install** (Linux/macOS; choose the wheel matching your Torch/CUDA version):
 ```bash
 pip install 'git+https://github.com/facebookresearch/detectron2.git'
-
+```
 
 > For detailed, version-matched instructions, see the [Detectron2 official install page](https://detectron2.readthedocs.io/).
 
