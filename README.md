@@ -23,7 +23,6 @@ This repository contains two core components:
 ### B. Qwen2-VL (Vision-Language Model)
 
 * GitHub: [https://github.com/QwenLM/Qwen2-VL](https://github.com/QwenLM/Qwen2-VL)
-* Model page (HF examples): [https://huggingface.co/Qwen](https://huggingface.co/Qwen)
 * Basic deps:
 
   ```bash
