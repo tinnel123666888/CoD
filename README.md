@@ -12,9 +12,54 @@ This repository contains two core components:
 ## 1) Installation
 
 ### A. Detectron2 (RPN)
-- GitHub: https://github.com/facebookresearch/detectron2  
-- Install (Linux/macOS; pick the wheel matching your Torch/CUDA):
+
+- **GitHub:** [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2)  
+- **Install** (Linux/macOS; choose the wheel matching your Torch/CUDA version):
+```bash
+pip install 'git+https://github.com/facebookresearch/detectron2.git'
+:
  
+
+
+
+### A. Detectron2 (RPN)
+
+- **GitHub:** [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2)  
+- **Install** (Linux/macOS; choose the wheel matching your Torch/CUDA version):
+```bash
+pip install 'git+https://github.com/facebookresearch/detectron2.git'
+
+
+> For detailed, version-matched instructions, see the [Detectron2 official install page](https://detectron2.readthedocs.io/).
+
+---
+
+### B. Qwen2-VL (Vision-Language Model)
+
+* **GitHub:** [QwenLM/Qwen2-VL](https://github.com/QwenLM/Qwen2-VL)
+* **Basic dependencies:**
+
+```bash
+pip install transformers accelerate einops tiktoken
+```
+
+* **Additional requirement:**
+  Ensure the utility file **`qwen_vl_utils.py`** (from Qwen2-VL examples) is importable
+  (place in the repo root or add to `PYTHONPATH`):
+
+```python
+from qwen_vl_utils import process_vision_info
+```
+
+---
+
+### C. Common Dependencies
+
+```bash
+pip install opencv-python numpy
+```
+
+
 
 
 ## 2) Repository Structure
