@@ -18,29 +18,7 @@ This repository contains two core components:
   pip install 'git+https://github.com/facebookresearch/detectron2.git'
 ````
 
-> For detailed, version-matched instructions, see Detectron2’s official install page.
 
-### B. Qwen2-VL (Vision-Language Model)
-
-* GitHub: [https://github.com/QwenLM/Qwen2-VL](https://github.com/QwenLM/Qwen2-VL)
-* Basic deps:
-
-  ```bash
-  pip install transformers accelerate einops tiktoken
-  ```
-* Make sure the utility **`qwen_vl_utils.py`** (from Qwen2-VL examples) is importable (e.g., placed in repo root or added to `PYTHONPATH`), since both scripts call:
-
-  ```python
-  from qwen_vl_utils import process_vision_info
-  ```
-
-### C. Common
-
-```bash
-pip install opencv-python numpy
-```
-
----
 
 ## 2) Repository Structure
 
